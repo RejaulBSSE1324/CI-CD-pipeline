@@ -7,10 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "ng test",
-    "test:prod": "ng test --browsers=ChormeHeadless --watch=false --code-coverage"
+    "test": "jest "
   },
   "dependencies": {
+    "jest": "^29.7.0",
     "ng": "^0.0.0",
     "preact": "^10.22.0",
     "test": "^3.3.0"
