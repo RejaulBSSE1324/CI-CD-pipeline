@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/preact';
-import App from '../app';
+import App from '/src/App';
 
 test('renders hello world', () => {
   render(<App />);
